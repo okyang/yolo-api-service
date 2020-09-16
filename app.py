@@ -51,7 +51,7 @@ def upload_file():
 
 def runModel(filename,cfgFile="cfg/yolov3.cfg yolov3.weights", weightsFile="yolov3.weights"):
     """
-    This function runs the darknet detec command on a single image and returns the predicted
+    This function runs the darknet detect command on a single image and returns the predicted
     objects as a string.
 
     filename<str>: the path to the image file.
