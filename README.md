@@ -1,7 +1,7 @@
 # yolo-api-service
 This repository consists of an example of how to create a API service for your YOLO model (https://pjreddie.com/darknet/yolo/). This is a very simple API implementation where you upload an image and then a the detected objects will appear in text form. You can very easily modify this code to work as an API to suit your needs.
 
-![](https://github.com/okyang/yolo-api-service/api-demo.gif)
+![image](https://github.com/okyang/yolo-api-service/blob/master/api-demo.gif)
 
 
 # Prerequisites
