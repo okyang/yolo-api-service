@@ -11,7 +11,7 @@ def allowed_file(filename):
     """
     Checks whether or not the extension name is allowed.
 
-    filename<str>:The name of the image file. 
+    filename<str>:The name of the image file.
     """
     return '.' in filename and filename.rsplit('.', 1)[-1].lower() in ALLOWED_EXTENSIONS
 
@@ -49,7 +49,7 @@ def upload_file():
     </form>
     '''
 
-def runModel(filename,cfgFile="cfg/yolov3.cfg yolov3.weights", weightsFile="yolov3.weights"):
+def runModel(filename,cfgFile="cfg/yolov3.cfg", weightsFile="yolov3.weights"):
     """
     This function runs the darknet detect command on a single image and returns the predicted
     objects as a string.
